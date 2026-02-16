@@ -4,6 +4,10 @@ export const VILLA_NAME = "Holiday Home Oasis Villa";
 export const VILLA_ADDRESS = "Podubaščak 2B, 21222 Pozorac (Marina), Croatia";
 export const BOOKING_URL = "https://www.vrbo.com/en-gb/p2674549";
 
+export const CONTACT_NAME = "Vinko";
+export const CONTACT_PHONE = "+385 XX XXX XXXX";
+export const CONTACT_EMAIL = "contact@villaoasismarina.com";
+
 export const buzzPhrases: string[] = [
   "Luxury Private Villa in Marina, Croatia",
   "Your Peaceful Escape on the Dalmatian Coast",

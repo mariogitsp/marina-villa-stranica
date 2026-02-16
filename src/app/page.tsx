@@ -5,7 +5,7 @@ import Amenities from "@/components/Amenities";
 import Reviews from "@/components/Reviews";
 import AttractionsPreview from "@/components/AttractionsPreview";
 import Location from "@/components/Location";
-import Contact from "@/components/Contact";
+import ContactInfo from "@/components/ContactInfo";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
@@ -19,7 +19,7 @@ export default function HomePage() {
       <Reviews />
       <AttractionsPreview />
       <Location />
-      {/* <Contact /> */}
+      <ContactInfo />
       <Footer />
       <ScrollToTopButton />
     </main>
