@@ -179,6 +179,6 @@ export const amenities = [
   { name: "Outdoor Space", icon: "outdoor" },
   { name: "Parking Available", icon: "parking" },
   { name: "Barbecue Grill", icon: "bbq" },
-  { name: "Fireplace", icon: "fireplace" },
+  { name: "Beach Nearby", icon: "beach" },
   { name: "Mountain View", icon: "mountain" },
 ] as const;
