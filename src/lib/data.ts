@@ -1,8 +1,12 @@
-import type { Review, Attraction, GalleryImage } from "@/types";
+import type { Review, Attraction, GalleryImage, Restaurant } from "@/types";
 
 export const VILLA_NAME = "Holiday Home Oasis Villa";
 export const VILLA_ADDRESS = "Podubaščak 2B, 21222 Pozorac (Marina), Croatia";
 export const BOOKING_URL = "https://www.vrbo.com/en-gb/p2674549";
+
+export const CONTACT_NAME = "Vinko";
+export const CONTACT_PHONE = "+385 XX XXX XXXX";
+export const CONTACT_EMAIL = "contact@villaoasismarina.com";
 
 export const buzzPhrases: string[] = [
   "Luxury Private Villa in Marina, Croatia",
@@ -175,6 +179,49 @@ export const amenities = [
   { name: "Outdoor Space", icon: "outdoor" },
   { name: "Parking Available", icon: "parking" },
   { name: "Barbecue Grill", icon: "bbq" },
-  { name: "Fireplace", icon: "fireplace" },
+  { name: "Beach Nearby", icon: "beach" },
   { name: "Mountain View", icon: "mountain" },
 ] as const;
+
+export const restaurants: Restaurant[] = [
+  {
+    name: "Bijeli Galeb",
+    cuisine: "Seafood & Mediterranean",
+    distance: "~4 min drive",
+    description:
+      "Popular waterfront restaurant known for fresh seafood and grilled fish. A local favourite with stunning views of Marina harbour.",
+    priceRange: "€€",
+  },
+  {
+    name: "Luka & Lora",
+    cuisine: "Modern Croatian",
+    distance: "~5 min drive",
+    description:
+      "Contemporary dining with a creative twist on traditional Dalmatian dishes. Excellent wine selection featuring local Croatian varieties.",
+    priceRange: "€€",
+  },
+  {
+    name: "Cappuccino",
+    cuisine: "Cafe & Light Dining",
+    distance: "~5 min drive",
+    description:
+      "Relaxed cafe and eatery perfect for morning coffee, light lunches, and evening drinks. Great spot on the Marina waterfront.",
+    priceRange: "€",
+  },
+  {
+    name: "Restoran Samson",
+    cuisine: "Traditional Dalmatian",
+    distance: "~5 min drive",
+    description:
+      "Family-run restaurant serving hearty Dalmatian cuisine with fresh ingredients. Also offers rooms for guests, a well-known local establishment.",
+    priceRange: "€€",
+  },
+  {
+    name: "Konoba Marina",
+    cuisine: "Seafood & Grill",
+    distance: "~5 min drive",
+    description:
+      "Authentic konoba (tavern) experience with stone walls and outdoor terrace. Specialises in fresh catch of the day and traditional peka dishes.",
+    priceRange: "€€",
+  },
+];

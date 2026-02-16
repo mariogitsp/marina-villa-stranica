@@ -4,8 +4,9 @@ import Gallery from "@/components/Gallery";
 import Amenities from "@/components/Amenities";
 import Reviews from "@/components/Reviews";
 import AttractionsPreview from "@/components/AttractionsPreview";
+import NearbyRestaurants from "@/components/NearbyRestaurants";
 import Location from "@/components/Location";
-import Contact from "@/components/Contact";
+import ContactInfo from "@/components/ContactInfo";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
@@ -18,8 +19,9 @@ export default function HomePage() {
       <Amenities />
       <Reviews />
       <AttractionsPreview />
+      <NearbyRestaurants />
       <Location />
-      {/* <Contact /> */}
+      <ContactInfo />
       <Footer />
       <ScrollToTopButton />
     </main>

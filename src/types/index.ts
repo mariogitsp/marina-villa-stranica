@@ -18,3 +18,11 @@ export interface GalleryImage {
   src: string;
   alt: string;
 }
+
+export interface Restaurant {
+  name: string;
+  cuisine: string;
+  distance: string;
+  description: string;
+  priceRange: string;
+}

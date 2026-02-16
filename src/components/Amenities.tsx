@@ -49,10 +49,12 @@ function AmenityIcon({ icon }: { icon: string }) {
         <path d="M9 8c0-2 1-3 1-4M12 8c0-2 1-3 1-4M15 8c0-2 1-3 1-4" strokeLinecap="round" />
       </svg>
     ),
-    fireplace: (
+    beach: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-8 w-8">
-        <path d="M4 21h16M5 21V9l7-5 7 5v12" strokeLinecap="round" strokeLinejoin="round" />
-        <path d="M12 21c0-3-2-4-2-6s2-3 2-5c0 2 2 3 2 5s-2 3-2 6z" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M17.5 8.5L19 2l-4.5 3.5L12 2 9.5 5.5 5 2l1.5 6.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M5 21c1.5-2 4-3 7-3s5.5 1 7 3" strokeLinecap="round" />
+        <path d="M3 21h18" strokeLinecap="round" />
+        <path d="M12 8.5V18" strokeLinecap="round" />
       </svg>
     ),
     mountain: (
