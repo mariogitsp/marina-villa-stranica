@@ -129,7 +129,7 @@ export default function ContactInfo() {
           </div>
 
           <p className="mt-4 text-center text-xs text-gray-400">
-            Available to help plan your perfect Croatian getaway
+            Let us help you create your perfect stay in Croatia.
           </p>
         </div>
       </div>

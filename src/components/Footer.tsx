@@ -66,7 +66,7 @@ export default function Footer() {
               </a>
               {/* X (Twitter) */}
               <a
-                href="https://x.com"
+                href="https://x.com/oasis_marina1"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow us on X"

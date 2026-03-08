@@ -5,7 +5,7 @@ export const VILLA_ADDRESS = "Podubaščak 2B, 21222 Pozorac (Marina), Croatia";
 export const BOOKING_URL = "https://www.vrbo.com/en-gb/p2674549";
 
 export const CONTACT_NAME = "Vinko";
-export const CONTACT_PHONE = "+385 XX XXX XXXX";
+export const CONTACT_PHONE = "+385 99 644 9084";
 export const CONTACT_EMAIL = "contact@villaoasismarina.com";
 
 export const buzzPhrases: string[] = [
@@ -164,7 +164,7 @@ export const attractions: Attraction[] = [
 ];
 
 export const galleryImages: GalleryImage[] = Array.from(
-  { length: 19 },
+  { length: 40 },
   (_, i) => ({
     src: `/images/gallery/image${String(i + 2).padStart(2, "0")}.jpg`,
     alt: `${VILLA_NAME} - Photo ${i + 1}`,

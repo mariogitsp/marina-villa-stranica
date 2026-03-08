@@ -632,3 +632,9 @@ git push
 ```
 
 Good luck! 🚀
+
+
+
+26.2.2026.
+I need to change the gallery from 20 photos to 40 and test if it loads properly, right now i tried it but im just getting the alt text for the photos after 20 so there is a bug somewhere. i want 40 pictures and i need to select which 40 and test it out how much slower the site is 20 vs 40 pictures in the gallery. Use lighthouse. I picked the best pictures and put them all in the D:\VillaMarinaStranica\villa-oasis\public\images\gallery folder but i need ai to rename the pictures from image01 to around image40 without gaps in the numbers, right now i have gaps and big  numbers need to be lowered, also pictures named from image71 to 101 have to be from 6th image to len+6, adjust all numbers acccordingly. starting numbered picture will be image02 because hero.jpg is like the first.
+
